@@ -1,3 +1,25 @@
+dh-virtualenv (0.9-1~dev~1.gbp9e25d5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9e25d5c7367da3b91336b1b434751c67083abebb **
+
+  [ Jyrki Pulliainen ]
+  * Fix the Perl library install
+
+  [ Wes Mason ]
+  * Add use_system_packages flag to deployment step and append correct flag to virtualenv call
+  * Add -S/--use-system-packages flag to cmdline
+  * Add -S/--use-system-packages flag to usage docs
+  * Use cmdline tests for --use-system-packages
+  * Add test for creating venv with system packages
+  * Use pass use-system-packages to Deployment from CLI options
+
+  [ Jyrki Pulliainen ]
+  * Lowercase the buildsystem directory
+
+  [ Antoine Musso ]
+
+ -- Jyrki Pulliainen <jyrki@spotify.com>  Fri, 06 Mar 2015 11:44:21 +0100
+
 dh-virtualenv (0.9-1~dev) experimental; urgency=low
 
   * Development release
